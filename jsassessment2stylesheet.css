@@ -1,0 +1,25 @@
+    #id1 {
+      border: 6px solid blue;
+      color: red;
+      text-align: center;
+    }
+    .class1 {
+      background-color: black;
+      text-align: left;
+      color: white;
+      border: 6px solid red;
+      border-radius: 10px;
+    }
+    .class2 {
+      font-family: Impact, Charcoal, sans-serif;
+      color: #ffcc00;
+    }
+    a {
+      color: blue;
+    }
+    a:visited {
+      color: green;
+    }
+    a:hover {
+      color: orange;
+    }
