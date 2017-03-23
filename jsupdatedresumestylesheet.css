@@ -1,5 +1,9 @@
-    .class1 {
-        text-align: center;
+    #id1 {
+        width: 150px; 
+        height: 150px; 
+        padding: 0.5em; 
+    }
+    .class1 {text-align: center;
         color:cadetblue;
     }
     .class3 {
