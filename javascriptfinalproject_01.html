@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<title>TrumpTracker</title>
+
+<style type="text/css">
+    .grad {
+        background: linear-gradient(to bottom right,#8E8F99,#3E4157 );
+    }
+    .class1 {text-align: center;
+        color:#82231B;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .class2 {
+        color:#CDE3EA;
+        font-family: Arial, Helvetica, sans-serif; 
+    }
+</style>
+   
+
+<script>
+    window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));
+    
+</script>
+
+</head>
+<body class="grad">
+<div> <h1 class="class1">TrumpTracker</h1>
+<br>
+<br>
+<br>
+<br>
+<div class="class2">In the "post-truth" era, it is often difficult to consistently follow issues that are important to Americans. Some of the most difficult events to track are those surrounding the president, Donald Trump. This is why I created TrumpTracker, with the hope of creating a single website with the information needed to keep up to date on the activivities of the president, all in one place.</div>
+<hr>
+<ul>
+    <li class="class2"> I've decided to use 538's polling website as the main focus for approval ratings. While 538 does have a liberal slant, they do compile polls from many different sources and provide an accurate average.</li>
+</ul>
+</div>
+    <iframe height="300px" width="50%" src="https://projects.fivethirtyeight.com/trump-approval-ratings/" name="iframe_a"></iframe>
+<br>
+<hr>    
+<br>
+<ul>
+    <li class="class2"> President Trump is a prolific tweeter, a habit that has often led him into media contreversy. I wanted to include his twitter feed as it is often his way of reaching out to his base.</li>
+</ul>
+<a class="twitter-timeline" href="https://twitter.com/realDonaldTrump"
+   data-width="500"
+   data-height="500"
+   data-chrome="transparent">Tweets by realDonaldTrump
+    </a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<br>
+<hr>
+<br>
+<ul>
+    <li class="class2"> Included below is a custom search engine which will only link to articles from what I believe to be reputable sources. In an attempt to avoid "fake news" and prevent a potential echo chamber, I have included sources from websites representing different political perspectives, while also trying to maintain reputablility. You may search whatever you would like, but my goal was to provide up-to-date reporting on the President, all centered in one place.</li>
+</ul>
+
+<script>
+  (function() {
+    var cx = '000475076385270495857:19aqg53uuli';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox></gcse:searchbox>
+<gcse:searchresults></gcse:searchresults>
+
+    
+</body>
+</html>
